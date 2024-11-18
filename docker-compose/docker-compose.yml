@@ -1,4 +1,4 @@
-version: '3.9'
+version: "3.9"
 
 services:
   redis-db:
@@ -41,10 +41,10 @@ services:
     links:
       - db:database
     environment:
-      ETHEREUM_JSONRPC_HTTP_URL: http://207.244.229.251:8549/
-      ETHEREUM_JSONRPC_TRACE_URL: http://207.244.229.251:8549/
-      ETHEREUM_JSONRPC_WS_URL: ws://207.244.229.251:8646/
-      CHAIN_ID: '6660002'
+      ETHEREUM_JSONRPC_HTTP_URL: http://34.81.113.222:8549/
+      ETHEREUM_JSONRPC_TRACE_URL: http://34.81.113.222:8549/
+      ETHEREUM_JSONRPC_WS_URL: ws://34.81.113.222:8646/
+      CHAIN_ID: "6660002"
 
   visualizer:
     extends:
